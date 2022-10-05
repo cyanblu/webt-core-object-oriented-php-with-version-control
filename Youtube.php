@@ -20,16 +20,16 @@ class Youtube implements InterfaceVideo
 
     public function getName()
     {
-        // TODO: Implement getName() method.
+        return $this->name;
     }
 
     public function getSource()
     {
-        // TODO: Implement getSource() method.
+        return $this->source;
     }
 
     public function getHtmlCode()
     {
-        // TODO: Implement getHtmlCode() method.
+        return $this->htmlCode;
     }
 }
