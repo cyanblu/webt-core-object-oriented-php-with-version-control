@@ -8,8 +8,11 @@
 </head>
 <body>
     <?php
-        
-        print("Hellooo World");
+        $skur = 5;
+
+        $skur++;
+
+        print("Hellooo World $skur");
     ?>
     
 </body>
