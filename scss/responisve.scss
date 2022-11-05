@@ -1,9 +1,8 @@
-$font-stack: Helvetica, sans-serif;
-$primary-color: #333;
-$green: #00ff00;
+$iframeWidth: 50%;
 
-body {
-  font: 100% $font-stack;
-  color: $primary-color;
-  background-color: $green;
+
+
+iframe{
+  width: $iframeWidth;
+  height: auto;
 }
