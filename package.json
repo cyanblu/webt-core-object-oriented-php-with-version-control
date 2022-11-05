@@ -4,6 +4,7 @@
   },
   
   "scripts" : {
-    "node-sass": "node-sass --watch --output-style compressed -o css/ scss --recursive"
-}
+    "node-sass": "node-sass --watch --output-style compressed -o css/ scss --recursive",
+    "sass": "sass --watch css/ scss"
+  }
 }
