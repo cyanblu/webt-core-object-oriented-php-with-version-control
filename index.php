@@ -13,13 +13,15 @@
         require_once "InterfaceVideo.php";
         require_once "Youtube.php";
         require_once "Vimeo.php";
-        $videos[] = new Youtube('SURVIVE Trailer German Deutsch (2022)', 'https://www.youtube.com/embed/xe_2QMZ7OKs', '<div class="col"><iframe src="https://www.youtube.com/embed/xe_2QMZ7OKs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>');
-        $videos[] = new Vimeo('', '', '<div class="col"><iframe src="https://player.vimeo.com/video/202696600?h=c3a851aff4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>');
+        $videos[] = new Youtube('SURVIVE Trailer German Deutsch (2022)', 'https://www.youtube.com/embed/xe_2QMZ7OKs', '<div class="col"><iframe src="https://www.youtube.com/embed/xe_2QMZ7OKs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>', 'Laufzeit: 2:15');
+        $videos[] = new Vimeo('', '', '<div class="col"><iframe src="https://player.vimeo.com/video/202696600?h=c3a851aff4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>', '"Laufzeit: 2:15"');
         echo '<div class="container text-center">
         <div class="row row-cols-4">';
         for ($i = 1; $i <=10; $i++) {
             echo $videos[0]->getHtmlCode();
+            echo $videos[0]->getTime();
             echo $videos[1]->getHtmlCode();
+            echo $videos[1]->getTime();
         }
         echo '</div></div>';
     ?>
