@@ -1,5 +1,9 @@
 {
   "dependencies": {
     "node-sass": "^7.0.3"
-  }
+  },
+  
+  "scripts" : {
+    "node-sass": "node-sass --watch --output-style compressed -o css/ scss --recursive"
+}
 }
