@@ -1,9 +1,15 @@
-$font-stack: Helvetica, sans-serif;
-$primary-color: #333;
-$green: #00ff00;
+$iframeWidth: 50%;
+$iframeheight: 2%;
 
-body {
-  font: 100% $font-stack;
-  color: $primary-color;
-  background-color: $green;
+$breakpoints: (
+  "phone": 360px,
+  "tablet": 768px,
+  "desktop": 1366px,
+  "largeDesktop": 1920px
+);
+
+iframe{
+  width: $iframeWidth;
+  height: $iframeheight;
 }
+
