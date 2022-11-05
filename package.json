@@ -1,5 +1,22 @@
 {
   "dependencies": {
     "node-sass": "^7.0.3"
-  }
+  },
+  "name": "webt-core-object-oriented-php-with-version-control",
+  "description": "The movie fan club “Acolytes of Ash” is looking to create a trailer portal for its members. The members of this club are all fans of “horror” movies which don’t take themselves too seriously.\r They want you to create a webapp, which allows them to list trailers of movies, taken from various sources like YouTube, Vimeo, etc.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyanblu/webt-core-object-oriented-php-with-version-control.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyanblu/webt-core-object-oriented-php-with-version-control/issues"
+  },
+  "homepage": "https://github.com/cyanblu/webt-core-object-oriented-php-with-version-control#readme"
 }
