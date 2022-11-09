@@ -1,1 +1,14 @@
-@media (min-width: 768px), (max-width: 1366px){iframe{height:2%}}
+body {
+  background-color: green;
+  /*@media (min-width: map-get($breakpoints, "tablet")){
+    background-color: red;
+  }
+  @media (min-width: map-get($breakpoints, "desktop")){
+    background-color: lightblue;
+  }
+  @media (min-width: map-get($breakpoints, "largeDesktop")){
+    background-color: blue;
+  }*/
+}
+
+/*# sourceMappingURL=responsive.css.map */
