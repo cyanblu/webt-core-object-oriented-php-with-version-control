@@ -1,0 +1,26 @@
+$iframeWidth: 50%;
+$iframeheight: 2%;
+
+// $phone: 360px;
+// $tablet: 768px;
+// $desktop: 1366px;
+// $largeDesktop: 1920px;
+
+$breakpoints: (
+  "phone": 360px,
+  "tablet": 768px,
+  "desktop": 1366px,
+  "largeDesktop": 1920px) !default;
+
+// iframe {
+
+  @include media(">phone", "<tablet") {
+    
+    // height: $iframeheight;
+
+  }
+  // @media(min-width: $tablet),
+  // (max-width:$desktop) {
+  //     height: $iframeheight;
+  // }
+// }
